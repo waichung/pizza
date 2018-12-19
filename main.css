@@ -1,0 +1,99 @@
+html, body {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #D1EDFF;
+}
+
+.header {
+  position: relative;
+  height: 100%;
+  margin-bottom: 300px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.onion {
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  transition: all .9s ease-in;
+}
+
+.peppermint {
+  position: absolute;
+  top: 370px;
+  left: 320px;
+  transition: all .8s ease-in;
+  transition-delay: .15s;
+}
+
+.flour {
+  position: absolute;
+  top: 330px;
+  left: 500px;
+  transition: all .7s ease-in;
+  transition-delay: .1s;
+}
+
+.gradient {
+  position: absolute;
+  top: 480px;
+  left: 520px;
+  transition: all .7s ease-in;
+  transition-delay: .05s;
+}
+
+.garlic {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  transition: all .8s ease-in;
+  transition-delay: .1s;
+}
+
+.peppers {
+  position: absolute;
+  top: 495px;
+  left: 370px;
+  transition: all .8s ease-in;
+  transition-delay: .1s;
+}
+
+.chilli {
+  position: absolute;
+  top: 495px;
+  left: 300px;
+  transition: all .9s ease-in;
+  transition-delay: .15s;
+}
+
+.tomato {
+  position: absolute;
+  top: 650px;
+  left: 350px;
+  transition: all 1s ease-in;
+  transition-delay: .15s;
+}
+
+.cheese {
+  position: absolute;
+  top: 550px;
+  left: 530px;
+  transition: all .7s ease-in;
+  transition-delay: .15s;
+}
+
+.content {
+  display: inline-block;
+  height: 500px;
+}

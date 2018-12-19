@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="main.css" rel="stylesheet"/>
+</head>
+<body>
+  <section class='header'>
+    <div class="main">
+      <img src="/images/HALF_PIZZA.jpg" />
+    </div>
+    <img src="/images/ONION.png" class="onion" />
+    <img src="/images/PEPPERMINT.png" class="peppermint" />
+    <img src="/images/FLOUR.png" class="flour" />
+    <img src="/images/GRADIENT.png" class="gradient" />
+    <img src="/images/GARLIC.png" class="garlic" />
+    <img src="/images/PEPPERS.png" class="peppers" />
+    <img src="/images/CHILLI_PEPPER.png" class="chilli" />
+    <img src="/images/TOMATO.png" class="tomato" />
+    <img src="/images/CHEESE.png" class="cheese" />
+  </section>
+  <section class='content'>SOME CONTENT</section>
+</body>
+<script>
+  window.onload = function () {
+    window.onscroll = function (e) {
+      moveIngredients();
+    };
+    window.onmousewheel = function (e) {
+      moveIngredients();
+    };  
+  };
+
+  function moveIngredients() {
+    document.getElementsByClassName('onion')[0].style.left = '710px';
+    document.getElementsByClassName('peppermint')[0].style.left = '674px';
+    document.getElementsByClassName('flour')[0].style.left = '710px';
+    document.getElementsByClassName('gradient')[0].style.left = '665px';
+    document.getElementsByClassName('garlic')[0].style.left = '688px';
+    document.getElementsByClassName('peppers')[0].style.left = '659px';
+    document.getElementsByClassName('chilli')[0].style.left = '650px';
+    document.getElementsByClassName('tomato')[0].style.left = '716px';
+    document.getElementsByClassName('cheese')[0].style.left = '710px';
+
+    document.getElementsByClassName('onion')[0].style.top = '295px';
+    document.getElementsByClassName('peppermint')[0].style.top = '335px';
+    document.getElementsByClassName('flour')[0].style.top = '350px';
+    document.getElementsByClassName('gradient')[0].style.top = '405px';
+    document.getElementsByClassName('garlic')[0].style.top = '415px';
+    document.getElementsByClassName('peppers')[0].style.top = '463px';
+    document.getElementsByClassName('chilli')[0].style.top = '380px';
+    document.getElementsByClassName('tomato')[0].style.top = '430px';
+    document.getElementsByClassName('cheese')[0].style.top = '490px';
+  }
+</script>
+</html>
